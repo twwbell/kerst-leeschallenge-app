@@ -1,0 +1,2174 @@
+{
+  "dagen": [
+    {
+      "dag": 1,
+      "blokken": [
+        {
+          "blok": 1,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "kreeg",
+                "kreet",
+                "krijt",
+                "kraait",
+                "kraai"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "koe",
+                "kooi",
+                "mooi",
+                "maai",
+                "baai"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "mes",
+                "es",
+                "erts",
+                "arts",
+                "kwart"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "schuw",
+                "ruw",
+                "duw",
+                "dun",
+                "dunst"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 2,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "ruw",
+                "duw",
+                "dun",
+                "durf",
+                "durft"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "staar",
+                "saar",
+                "saai",
+                "waai",
+                "maai"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "zwaan",
+                "zwaai",
+                "waai",
+                "saai",
+                "haai"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "gans",
+                "gons",
+                "gonst",
+                "gunst",
+                "kunst"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 3,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "ruik",
+                "struik",
+                "strak",
+                "stram",
+                "gram"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "eeuw",
+                "spreeuw",
+                "meeuw",
+                "mouw",
+                "bouwt"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "draait",
+                "draai",
+                "maai",
+                "mooi",
+                "gooi"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "stoom",
+                "stroom",
+                "stram",
+                "strak",
+                "krak"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 4,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "mouw",
+                "meeuw",
+                "leeuw",
+                "schreeuw",
+                "geeuw"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "dief",
+                "dof",
+                "dorst",
+                "worst",
+                "korst"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "nieuw",
+                "nauw",
+                "blauw",
+                "gauw",
+                "flauw"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "staat",
+                "laat",
+                "loeit",
+                "gloeit",
+                "bloeit"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 5,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "worst",
+                "dorst",
+                "dof",
+                "dief",
+                "lief"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "groot",
+                "griet",
+                "niet",
+                "nieuw",
+                "nieuws"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "staal",
+                "steel",
+                "geel",
+                "geeuw",
+                "meeuw"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "ding",
+                "kring",
+                "spring",
+                "sprong",
+                "long"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 6,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "kieuw",
+                "fietst",
+                "hoezo",
+                "kaarsjes",
+                "laarsjes"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "stomp",
+                "schreeuw",
+                "blauw",
+                "welja",
+                "leeuw"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "haast",
+                "haai",
+                "mooi",
+                "ziezo",
+                "strikt"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "kraai",
+                "loeit",
+                "kreet",
+                "groot",
+                "bloeit"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 7,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "roei",
+                "onding",
+                "opeen",
+                "karton",
+                "bloeit"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "voorrang",
+                "sneeuw",
+                "werpt",
+                "schoolreis",
+                "berm"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "verfpot",
+                "griepje",
+                "spring",
+                "straal",
+                "geeuwt"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "lauw",
+                "meeuw",
+                "dooi",
+                "nieuw",
+                "touw"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 8,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "steel",
+                "kieuw",
+                "schreef",
+                "durf",
+                "nieuw"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "kreuk",
+                "servies",
+                "onzin",
+                "nieuws",
+                "servet"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "spreeuw",
+                "grauw",
+                "strik",
+                "duwt",
+                "schuw"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "onzin",
+                "peuk",
+                "speen",
+                "balkon",
+                "spreuk"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 9,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "schuw",
+                "liefst",
+                "worst",
+                "gans",
+                "beent"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "struik",
+                "snauw",
+                "gunst",
+                "mouw",
+                "snauwt"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "verfpot",
+                "kaarsjes",
+                "sprong",
+                "keelpijn",
+                "kunst"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "keelpijn",
+                "nieuws",
+                "plekje",
+                "tuinbroek",
+                "tuinman"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 10,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "servet",
+                "welja",
+                "duw",
+                "pauk",
+                "nieuw"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "stroom",
+                "mouw",
+                "schreef",
+                "snauw",
+                "blauw"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "stier",
+                "bo",
+                "spel",
+                "hoezo",
+                "gierst"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "plekje",
+                "grauw",
+                "werpt",
+                "duwt",
+                "werpt"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dag": 2,
+      "blokken": [
+        {
+          "blok": 1,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "fraai",
+                "kooi",
+                "gloeit",
+                "draait",
+                "kraait"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "saai",
+                "krijt",
+                "maai",
+                "kreeg",
+                "fraai"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "arts",
+                "struik",
+                "gans",
+                "liefst",
+                "kwart"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "kunst",
+                "liefst",
+                "worst",
+                "erts",
+                "snert"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 2,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "leeuw",
+                "nieuw",
+                "ruw",
+                "stram",
+                "stamt"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "schreef",
+                "welja",
+                "dooi",
+                "meeuw",
+                "sneeuw"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "eeuw",
+                "roei",
+                "haai",
+                "blauw",
+                "meeuw"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "hoezo",
+                "hierna",
+                "hoest",
+                "mouw",
+                "proest"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 3,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "haast",
+                "kieuw",
+                "onding",
+                "opeen",
+                "naast"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "karton",
+                "speen",
+                "keelpijn",
+                "welja",
+                "beent"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "griepje",
+                "spring",
+                "sneeuw",
+                "fietst",
+                "groepje"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "spreeuw",
+                "servet",
+                "duwt",
+                "stomp",
+                "stompt"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 4,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "mooi",
+                "loeit",
+                "staat",
+                "waait",
+                "snaait"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "saai",
+                "kraai",
+                "kreet",
+                "gloeit",
+                "snoeit"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "kunst",
+                "struik",
+                "dief",
+                "dorst",
+                "korst"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "schroef",
+                "geeuw",
+                "schuw",
+                "durf",
+                "slurf"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 5,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "voorrang",
+                "sneeuw",
+                "werpt",
+                "schoolreis",
+                "berm"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "schuw",
+                "liefst",
+                "worst",
+                "gans",
+                "beent"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "ruik",
+                "struik",
+                "strak",
+                "stram",
+                "gram"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "worst",
+                "dorst",
+                "dof",
+                "dief",
+                "lief"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 6,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "haast",
+                "haai",
+                "mooi",
+                "ziezo",
+                "naast"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "lauw",
+                "meeuw",
+                "dooi",
+                "nieuw",
+                "sneeuw"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "schuw",
+                "liefst",
+                "worst",
+                "gans",
+                "duwt"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "stroom",
+                "mouw",
+                "schreef",
+                "snauw",
+                "blauw"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 7,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "kreeg",
+                "kreet",
+                "krijt",
+                "kraait",
+                "waait"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "staar",
+                "saar",
+                "saai",
+                "waai",
+                "haai"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "draait",
+                "draai",
+                "maai",
+                "mooi",
+                "klooit"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "staat",
+                "laat",
+                "loeit",
+                "gloeit",
+                "bloeit"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 8,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "roei",
+                "onding",
+                "opeen",
+                "karton",
+                "bloeit"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "kreuk",
+                "servies",
+                "onzin",
+                "nieuws",
+                "kreukt"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "verfpot",
+                "kaarsjes",
+                "sprong",
+                "keelpijn",
+                "spierpijn"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "plekje",
+                "grauw",
+                "werpt",
+                "duwt",
+                "schuw"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 9,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "ruw",
+                "duw",
+                "dun",
+                "durf",
+                "duwt"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "eeuw",
+                "spreeuw",
+                "meeuw",
+                "mouw",
+                "klauw"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "nieuw",
+                "nauw",
+                "blauw",
+                "gauw",
+                "pauw"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "ding",
+                "kring",
+                "spring",
+                "sprong",
+                "springt"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 10,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "groot",
+                "dief",
+                "ruik",
+                "onzin",
+                "groeit"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "dof",
+                "struik",
+                "peuk",
+                "gloeit",
+                "dorst"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "strak",
+                "speen",
+                "loeit",
+                "worst",
+                "stroom"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "balkon",
+                "onzin",
+                "koe",
+                "draait",
+                "staar"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dag": 3,
+      "blokken": [
+        {
+          "blok": 1,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "peuk",
+                "loeit",
+                "geeuw",
+                "slurf",
+                "staat"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "kreeg",
+                "haast",
+                "roei",
+                "laat",
+                "kreet"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "haai",
+                "haai",
+                "loeit",
+                "krijt",
+                "mooi"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "geeuw",
+                "gloeit",
+                "kraait",
+                "ziezo",
+                "schuw"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 2,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "eeuw",
+                "schroef",
+                "schaal",
+                "deur",
+                "roei"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "geeuw",
+                "school",
+                "snauw",
+                "haai",
+                "spreeuw"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "kreuk",
+                "schreef",
+                "arts",
+                "servet",
+                "servies"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "welja",
+                "erts",
+                "duwt",
+                "onzin",
+                "dooi"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 3,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "ets",
+                "stomp",
+                "nieuws",
+                "meeuw",
+                "mes"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "schreef",
+                "schuw",
+                "leeuw",
+                "mest",
+                "welja"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "liefst",
+                "eeuw",
+                "dooi",
+                "kust",
+                "fraai"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "koe",
+                "struik",
+                "kunst",
+                "kraai",
+                "loeit"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 4,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "snauw",
+                "gunst",
+                "kraait",
+                "kraai",
+                "gunst"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "gonst",
+                "krijt",
+                "roei",
+                "mouw",
+                "struik"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "plekje",
+                "haai",
+                "trouw",
+                "snauw",
+                "grauw"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "kraait",
+                "snauw",
+                "rauw",
+                "mouw",
+                "meeuw"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 5,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "leeuw",
+                "schuw",
+                "kies",
+                "kieuw",
+                "nieuw"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "nieuws",
+                "staal",
+                "steel",
+                "geel",
+                "snauw"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "schuw",
+                "ruw",
+                "duw",
+                "dun",
+                "struik"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "straal",
+                "streel",
+                "stroef",
+                "hool",
+                "dooi"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 6,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "dooit",
+                "gooit",
+                "ga",
+                "ja",
+                "vla"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "ma",
+                "worst",
+                "dorst",
+                "vorst",
+                "korst"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "hoest",
+                "proest",
+                "koest",
+                "woest",
+                "roei"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "boei",
+                "doei",
+                "loei",
+                "onzin",
+                "onding"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 7,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "ding",
+                "ring",
+                "draait",
+                "maait",
+                "laait"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "paait",
+                "vlier",
+                "haai",
+                "kraai",
+                "fraai"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "balkon",
+                "karton",
+                "karwei",
+                "wei",
+                "speer"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "beer",
+                "zeer",
+                "meer",
+                "geit",
+                "reist"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 8,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "klei",
+                "prei",
+                "kauw",
+                "saus",
+                "pauw"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "lauw",
+                "zeurt",
+                "kleurt",
+                "beurt",
+                "keurt"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "boort",
+                "poort",
+                "voort",
+                "hoort",
+                "boort"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "poort",
+                "hoort",
+                "brult",
+                "krult",
+                "dramt"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 9,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "dimt",
+                "hoezo",
+                "welja",
+                "werpt",
+                "kieuw"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "spring",
+                "sprong",
+                "zong",
+                "gong",
+                "lacht"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "gracht",
+                "vracht",
+                "wacht",
+                "knots",
+                "trots"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "stort",
+                "stoort",
+                "fraai",
+                "kraai",
+                "kraait"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 10,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "krijt",
+                "krijst",
+                "waai",
+                "saai",
+                "saar"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "staar",
+                "baart",
+                "doos",
+                "bak",
+                "reis"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "moe",
+                "ruk",
+                "kust",
+                "kunst",
+                "gunst"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "gonst",
+                "bonst"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dag": 4,
+      "blokken": [
+        {
+          "blok": 1,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "ruik",
+                "struik",
+                "strak",
+                "stroom",
+                "room"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "arts",
+                "erts",
+                "ets",
+                "mes",
+                "mest"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "dief",
+                "dof",
+                "dorst",
+                "worst",
+                "korst"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "staal",
+                "steel",
+                "geel",
+                "geeuw",
+                "sneeuw"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 2,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "schuw",
+                "ruw",
+                "duw",
+                "dun",
+                "duwt"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "eeuw",
+                "spreeuw",
+                "meeuw",
+                "mouw",
+                "dauw"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "zoek",
+                "ziek",
+                "ziezo",
+                "zo",
+                "vlo"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "mouw",
+                "meeuw",
+                "leeuw",
+                "schreeuw",
+                "veel"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 3,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "kreeg",
+                "kreet",
+                "krijt",
+                "kraait",
+                "schroef"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "mooi",
+                "loeit",
+                "staat",
+                "waait",
+                "snaait"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "eeuw",
+                "spreeuw",
+                "meeuw",
+                "mouw",
+                "klauw"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "staat",
+                "laat",
+                "loeit",
+                "gloeit",
+                "bloeit"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 4,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "eeuw",
+                "spreeuw",
+                "meeuw",
+                "mouw",
+                "gauw"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "roei",
+                "loei",
+                "luw",
+                "lauw",
+                "blauw"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "zoek",
+                "ziek",
+                "ziezo",
+                "zoveel",
+                "ziek"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "zo",
+                "bo",
+                "boe",
+                "ga",
+                "ja"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 5,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "ja",
+                "welja",
+                "welnee",
+                "wel",
+                "belt"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "hoest",
+                "hoef",
+                "hoe",
+                "hoezo",
+                "hoef"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "bal",
+                "balkon",
+                "kon",
+                "ton",
+                "balk"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "karton",
+                "karwei",
+                "staan",
+                "opstaan",
+                "gaan"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 6,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "opeen",
+                "een",
+                "speen",
+                "speer",
+                "heer"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "servet",
+                "servies",
+                "vies",
+                "viespeuk",
+                "deukt"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "kraai",
+                "zwaai",
+                "draai",
+                "baai",
+                "draait"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "loei",
+                "loeit",
+                "groeit",
+                "groei",
+                "goed"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 7,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "erts",
+                "arts",
+                "start",
+                "kwart",
+                "kwarts"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "klauw",
+                "blauw",
+                "lauw",
+                "kauw",
+                "pauw"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "kunst",
+                "struik",
+                "dief",
+                "dorst",
+                "korst"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "worst",
+                "dorst",
+                "dof",
+                "dief",
+                "lief"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 8,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "plekje",
+                "grauw",
+                "werpt",
+                "duwt",
+                "duw"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "kreuk",
+                "servies",
+                "onzin",
+                "nieuws",
+                "geeuw"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "schuw",
+                "liefst",
+                "worst",
+                "gans",
+                "snikt"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "roei",
+                "onding",
+                "opeen",
+                "karton",
+                "snaar"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 9,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": []
+            },
+            {
+              "rijtje": 2,
+              "woorden": []
+            },
+            {
+              "rijtje": 3,
+              "woorden": []
+            },
+            {
+              "rijtje": 4,
+              "woorden": []
+            }
+          ]
+        },
+        {
+          "blok": 10,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": []
+            },
+            {
+              "rijtje": 2,
+              "woorden": []
+            },
+            {
+              "rijtje": 3,
+              "woorden": []
+            },
+            {
+              "rijtje": 4,
+              "woorden": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dag": 5,
+      "blokken": [
+        {
+          "blok": 1,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "bedankt",
+                "engs",
+                "geland",
+                "strooit",
+                "springt"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "dorst",
+                "gezond",
+                "verslag",
+                "kraai",
+                "gezicht"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "stijgt",
+                "krijgt",
+                "krijg",
+                "kraag",
+                "vraag"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "plank",
+                "plant",
+                "krant",
+                "krent",
+                "kreng"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 2,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "straal",
+                "streel",
+                "streep",
+                "strop",
+                "streng"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "fraai",
+                "taai",
+                "tooi",
+                "strooi",
+                "strooit"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "grond",
+                "grot",
+                "graat",
+                "graaft",
+                "gracht"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "zwaait",
+                "draait",
+                "maait",
+                "maai",
+                "mooi"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 3,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "kleur",
+                "deur",
+                "door",
+                "spoor",
+                "stoor"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "ballet",
+                "balkon",
+                "balzaal",
+                "eetzaal",
+                "eetbaar"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "goor",
+                "geur",
+                "deur",
+                "door",
+                "voor"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "toekan",
+                "toeval",
+                "aanval",
+                "aantal",
+                "talrijk"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 4,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "peer",
+                "meer",
+                "beer",
+                "heer",
+                "hoor"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "eind",
+                "hoed",
+                "vindt",
+                "web",
+                "bord"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "grauw",
+                "blauw",
+                "klauw",
+                "stroop",
+                "spruit"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "streep",
+                "stroop",
+                "stroom",
+                "stoom",
+                "spreek"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 5,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "sprak",
+                "strak",
+                "strik",
+                "grond",
+                "rond"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "mond",
+                "maand",
+                "plu",
+                "u",
+                "nu"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "nul",
+                "wel",
+                "wed",
+                "web",
+                "heb"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "sta",
+                "eb",
+                "gloed",
+                "straks",
+                "straat"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 6,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "strip",
+                "streek",
+                "spriet",
+                "bord",
+                "heb"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "bob",
+                "geld",
+                "kleum",
+                "klam",
+                "klant"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "klont",
+                "keer",
+                "scheur",
+                "smeer",
+                "deur"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "mond",
+                "maand",
+                "staand",
+                "stand",
+                "grauw"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 7,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "blauw",
+                "pauw",
+                "pous",
+                "sterk",
+                "kerk"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "kers",
+                "kerst",
+                "stank",
+                "klotst",
+                "slang"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "luilak",
+                "rust",
+                "vloer",
+                "schrijf",
+                "erf"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": [
+                "bank",
+                "jank",
+                "jan",
+                "plan",
+                "zweert"
+              ]
+            }
+          ]
+        },
+        {
+          "blok": 8,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": [
+                "zweet",
+                "weet",
+                "kreet",
+                "welp",
+                "kalm"
+              ]
+            },
+            {
+              "rijtje": 2,
+              "woorden": [
+                "brom",
+                "stoel",
+                "dang",
+                "gang",
+                "gang"
+              ]
+            },
+            {
+              "rijtje": 3,
+              "woorden": [
+                "hang",
+                "juich",
+                "juicht",
+                "juist",
+                "vuist"
+              ]
+            },
+            {
+              "rijtje": 4,
+              "woorden": []
+            }
+          ]
+        },
+        {
+          "blok": 9,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": []
+            },
+            {
+              "rijtje": 2,
+              "woorden": []
+            },
+            {
+              "rijtje": 3,
+              "woorden": []
+            },
+            {
+              "rijtje": 4,
+              "woorden": []
+            }
+          ]
+        },
+        {
+          "blok": 10,
+          "rijtjes": [
+            {
+              "rijtje": 1,
+              "woorden": []
+            },
+            {
+              "rijtje": 2,
+              "woorden": []
+            },
+            {
+              "rijtje": 3,
+              "woorden": []
+            },
+            {
+              "rijtje": 4,
+              "woorden": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
