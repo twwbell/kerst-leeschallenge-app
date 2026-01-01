@@ -315,9 +315,10 @@ const ReadingScreen: React.FC<ReadingScreenProps> = ({
                 : 'btn-christmas-gold'
               }
             `}
-            title="Lees woord voor"
+            title="Lees woord voor 📣"
+            aria-label="Lees woord voor"
           >
-            🔔
+            📣
           </button>
           
           <button
@@ -354,8 +355,10 @@ const ReadingScreen: React.FC<ReadingScreenProps> = ({
           <button
             onClick={handleMoeilijk}
             className="px-6 py-3 rounded-xl text-lg font-semibold btn-christmas-gold"
+            title="Lettergrepen (🪓)"
+            aria-label="Lettergrepen"
           >
-            🎁 Moeilijk
+            🪓 Lettergrepen
           </button>
 
           <button

@@ -83,7 +83,7 @@ const BlockSummary: React.FC<BlockSummaryProps> = ({
           <div className="flex justify-between items-center py-2 border-b border-[oklch(0.90_0.02_80)]">
             <span className="text-[oklch(0.45_0.03_50)]">Keer voorgelezen:</span>
             <span className="font-bold text-[oklch(0.75_0.15_85)] font-display text-lg">
-              {samenvatting.keerVoorgelezen}× 🔔
+              {samenvatting.keerVoorgelezen}× 📣
             </span>
           </div>
 

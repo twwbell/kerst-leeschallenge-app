@@ -61,7 +61,7 @@ const SyllableView: React.FC<SyllableViewProps> = ({
       <div className="bg-[oklch(0.98_0.01_80)] rounded-3xl p-8 shadow-2xl border-4 border-[oklch(0.75_0.15_85)] max-w-lg w-full mx-4">
         {/* Header */}
         <div className="text-center mb-6">
-          <span className="text-2xl">🎁</span>
+          <span className="text-2xl">🪓</span>
           <h3 className="text-xl font-bold text-[oklch(0.40_0.08_160)] font-display mt-2">
             Lettergrepen
           </h3>
@@ -132,8 +132,10 @@ const SyllableView: React.FC<SyllableViewProps> = ({
           <button
             onClick={handleSpreek}
             className="w-16 h-16 rounded-full text-3xl btn-christmas-gold"
+            title="Lees lettergreep voor 📣"
+            aria-label="Lees lettergreep voor"
           >
-            🔔
+            📣
           </button>
 
           <button

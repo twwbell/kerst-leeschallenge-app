@@ -1355,10 +1355,7 @@
               "rijtje": 4,
               "woorden": [
                 "gonst",
-                "bonst",
-                "peuk",
-                "loeit",
-                "geeuw"
+                "bonst"
               ]
             }
           ]
@@ -1733,43 +1730,19 @@
           "rijtjes": [
             {
               "rijtje": 1,
-              "woorden": [
-                "ruik",
-                "struik",
-                "strak",
-                "stroom",
-                "room"
-              ]
+              "woorden": []
             },
             {
               "rijtje": 2,
-              "woorden": [
-                "arts",
-                "erts",
-                "ets",
-                "mes",
-                "mest"
-              ]
+              "woorden": []
             },
             {
               "rijtje": 3,
-              "woorden": [
-                "dief",
-                "dof",
-                "dorst",
-                "worst",
-                "korst"
-              ]
+              "woorden": []
             },
             {
               "rijtje": 4,
-              "woorden": [
-                "staal",
-                "steel",
-                "geel",
-                "geeuw",
-                "sneeuw"
-              ]
+              "woorden": []
             }
           ]
         },
@@ -1778,43 +1751,19 @@
           "rijtjes": [
             {
               "rijtje": 1,
-              "woorden": [
-                "schuw",
-                "ruw",
-                "duw",
-                "dun",
-                "duwt"
-              ]
+              "woorden": []
             },
             {
               "rijtje": 2,
-              "woorden": [
-                "eeuw",
-                "spreeuw",
-                "meeuw",
-                "mouw",
-                "dauw"
-              ]
+              "woorden": []
             },
             {
               "rijtje": 3,
-              "woorden": [
-                "zoek",
-                "ziek",
-                "ziezo",
-                "zo",
-                "vlo"
-              ]
+              "woorden": []
             },
             {
               "rijtje": 4,
-              "woorden": [
-                "mouw",
-                "meeuw",
-                "leeuw",
-                "schreeuw",
-                "veel"
-              ]
+              "woorden": []
             }
           ]
         }
@@ -1953,7 +1902,7 @@
                 "toeval",
                 "aanval",
                 "aantal",
-                "snaait"
+                "talrijk"
               ]
             }
           ]
@@ -2101,7 +2050,7 @@
               "woorden": [
                 "blauw",
                 "pauw",
-                "paus",
+                "pous",
                 "sterk",
                 "kerk"
               ]
@@ -2155,9 +2104,9 @@
               "rijtje": 2,
               "woorden": [
                 "brom",
-                "hang",
-                "dong",
-                "gong",
+                "stoel",
+                "dang",
+                "gang",
                 "gang"
               ]
             },
@@ -2173,13 +2122,7 @@
             },
             {
               "rijtje": 4,
-              "woorden": [
-                "bedankt",
-                "engs",
-                "geland",
-                "strooit",
-                "springt"
-              ]
+              "woorden": []
             }
           ]
         },
@@ -2188,43 +2131,19 @@
           "rijtjes": [
             {
               "rijtje": 1,
-              "woorden": [
-                "dorst",
-                "gezond",
-                "verslag",
-                "kraai",
-                "gezicht"
-              ]
+              "woorden": []
             },
             {
               "rijtje": 2,
-              "woorden": [
-                "stijgt",
-                "krijgt",
-                "krijg",
-                "kraag",
-                "vraag"
-              ]
+              "woorden": []
             },
             {
               "rijtje": 3,
-              "woorden": [
-                "plank",
-                "plant",
-                "krant",
-                "krent",
-                "kreng"
-              ]
+              "woorden": []
             },
             {
               "rijtje": 4,
-              "woorden": [
-                "straal",
-                "streel",
-                "streep",
-                "strop",
-                "streng"
-              ]
+              "woorden": []
             }
           ]
         },
@@ -2233,43 +2152,19 @@
           "rijtjes": [
             {
               "rijtje": 1,
-              "woorden": [
-                "fraai",
-                "taai",
-                "tooi",
-                "strooi",
-                "strooit"
-              ]
+              "woorden": []
             },
             {
               "rijtje": 2,
-              "woorden": [
-                "grond",
-                "grot",
-                "graat",
-                "graaft",
-                "gracht"
-              ]
+              "woorden": []
             },
             {
               "rijtje": 3,
-              "woorden": [
-                "zwaait",
-                "draait",
-                "maait",
-                "maai",
-                "mooi"
-              ]
+              "woorden": []
             },
             {
               "rijtje": 4,
-              "woorden": [
-                "kleur",
-                "deur",
-                "door",
-                "spoor",
-                "stoor"
-              ]
+              "woorden": []
             }
           ]
         }
