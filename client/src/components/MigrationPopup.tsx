@@ -17,7 +17,6 @@ import {
 } from "@/components/ui/dialog";
 
 const NEW_SITE_URL = "https://leeschallenge.thomasbell.nl";
-const MIGRATION_DISMISSED_KEY = "leeschallenge-migration-dismissed";
 
 export function MigrationPopup() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,11 +25,8 @@ export function MigrationPopup() {
     // Check if we're on a Manus domain
     const isManusUrl = window.location.hostname.includes("manus");
     
-    // Check if user has already dismissed the popup
-    const isDismissed = localStorage.getItem(MIGRATION_DISMISSED_KEY) === "true";
-
-    // Show popup only on Manus URL and if not dismissed
-    if (isManusUrl && !isDismissed) {
+    // Show popup on every visit if on Manus URL
+    if (isManusUrl) {
       setIsOpen(true);
     }
   }, []);
@@ -40,7 +36,6 @@ export function MigrationPopup() {
   };
 
   const handleDismiss = () => {
-    localStorage.setItem(MIGRATION_DISMISSED_KEY, "true");
     setIsOpen(false);
   };
 
