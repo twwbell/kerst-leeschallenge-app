@@ -76,6 +76,10 @@ export default function Home() {
     setView('selector');
   }, []);
 
+  const handleReset = useCallback(() => {
+    storage.resetProgress();
+  }, [storage]);
+
   // Loading state
   if (loading) {
     return (
@@ -135,6 +139,7 @@ export default function Home() {
             dagenVoltooid={storage.state.totaalStatistieken.dagenVoltooid}
             onSelectDag={handleSelectDag}
             getDagVoortgang={storage.getDagVoortgang}
+            onReset={handleReset}
           />
         ) : (
           <ReadingScreen
