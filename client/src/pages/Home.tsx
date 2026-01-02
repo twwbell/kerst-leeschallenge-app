@@ -5,6 +5,7 @@ import { Modus, BlokStatistiek } from '../types/types';
 import SnowfallEffect from '../components/SnowfallEffect';
 import DaySelector from '../components/DaySelector';
 import ReadingScreen from '../components/ReadingScreen';
+import { MigrationPopup } from '../components/MigrationPopup';
 
 /**
  * DESIGN: Magisch Winterwonderland
@@ -127,6 +128,9 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-[oklch(0.98_0.01_80)] relative">
+      {/* Migratie popup - alleen op Manus URL */}
+      <MigrationPopup />
+      
       {/* Sneeuwval achtergrond */}
       <SnowfallEffect intensity={view === 'selector' ? 'normal' : 'light'} />
 
