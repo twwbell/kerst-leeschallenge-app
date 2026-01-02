@@ -44,7 +44,7 @@ function deserializeState(stored: StoredState): AppState {
   // Handle backwards compatibility - convert number to array if needed
   const rawDagenVoltooid = stored.totaalStatistieken?.dagenVoltooid;
   let dagenVoltooid: number[] = [];
-  
+
   if (typeof rawDagenVoltooid === 'number') {
     // Convert old format (count) to new format (array)
     for (let i = 0; i < rawDagenVoltooid; i++) {
@@ -53,9 +53,16 @@ function deserializeState(stored: StoredState): AppState {
   } else if (Array.isArray(rawDagenVoltooid)) {
     dagenVoltooid = rawDagenVoltooid;
   }
-  
+
+  // Handle backwards compatibility - convert 'tempo' to 'timer'
+  let modus = stored.modus;
+  if (modus === 'tempo' as Modus) {
+    modus = 'timer';
+  }
+
   return {
     ...stored,
+    modus,
     totaalStatistieken: {
       ...stored.totaalStatistieken,
       dagenVoltooid,

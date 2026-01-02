@@ -1,32 +1,39 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { Modus } from '../types/types';
 
-const TEMPO_TIJD = 60; // 60 seconden per blok
+const DEFAULT_TIMER_TIJD = 60; // 60 seconden default
 
 interface UseTimerReturn {
-  tijd: number; // huidige tijd in seconden
+  tijd: number; // huidige tijd in seconden (kan negatief zijn in timer modus)
+  initialTime: number; // initiele countdown tijd voor timer modus
   isRunning: boolean;
-  isWarning: boolean; // laatste 10 seconden in tempo modus
-  isExpired: boolean; // tijd is op in tempo modus
+  isWarning: boolean; // laatste 10 seconden in timer modus
+  isExpired: boolean; // tijd is op in timer modus (tijd <= 0)
+  hasStarted: boolean; // timer is ooit gestart in deze sessie
   start: () => void;
   pause: () => void;
   reset: () => void;
+  toggle: () => void; // play/pause toggle
+  setInitialTime: (seconds: number) => void; // stel countdown tijd in
   getElapsedMs: () => number; // voor woord timing
 }
 
 export function useTimer(modus: Modus): UseTimerReturn {
-  const [tijd, setTijd] = useState(modus === 'tempo' ? TEMPO_TIJD : 0);
+  const [initialTime, setInitialTimeState] = useState(DEFAULT_TIMER_TIJD);
+  const [tijd, setTijd] = useState(modus === 'timer' ? DEFAULT_TIMER_TIJD : 0);
   const [isRunning, setIsRunning] = useState(false);
+  const [hasStarted, setHasStarted] = useState(false);
   const startTimeRef = useRef<number | null>(null);
   const elapsedRef = useRef<number>(0);
 
   // Reset timer wanneer modus verandert
   useEffect(() => {
-    setTijd(modus === 'tempo' ? TEMPO_TIJD : 0);
+    setTijd(modus === 'timer' ? initialTime : 0);
     setIsRunning(false);
+    setHasStarted(false);
     startTimeRef.current = null;
     elapsedRef.current = 0;
-  }, [modus]);
+  }, [modus, initialTime]);
 
   // Timer interval
   useEffect(() => {
@@ -38,13 +45,8 @@ export function useTimer(modus: Modus): UseTimerReturn {
           // Training: tel op
           setTijd(prev => prev + 1);
         } else {
-          // Tempo: tel af
-          setTijd(prev => {
-            if (prev <= 0) {
-              return 0;
-            }
-            return prev - 1;
-          });
+          // Timer: tel af, doorgaan in negatief
+          setTijd(prev => prev - 1);
         }
       }, 1000);
     }
@@ -58,6 +60,7 @@ export function useTimer(modus: Modus): UseTimerReturn {
     if (!isRunning) {
       startTimeRef.current = Date.now() - elapsedRef.current;
       setIsRunning(true);
+      setHasStarted(true);
     }
   }, [isRunning]);
 
@@ -68,12 +71,31 @@ export function useTimer(modus: Modus): UseTimerReturn {
     setIsRunning(false);
   }, [isRunning]);
 
+  const toggle = useCallback(() => {
+    if (isRunning) {
+      pause();
+    } else {
+      start();
+    }
+  }, [isRunning, start, pause]);
+
   const reset = useCallback(() => {
-    setTijd(modus === 'tempo' ? TEMPO_TIJD : 0);
+    setTijd(modus === 'timer' ? initialTime : 0);
     setIsRunning(false);
+    setHasStarted(false);
     startTimeRef.current = null;
     elapsedRef.current = 0;
-  }, [modus]);
+  }, [modus, initialTime]);
+
+  const setInitialTime = useCallback((seconds: number) => {
+    setInitialTimeState(seconds);
+    // Reset timer to new initial time and pause
+    setTijd(seconds);
+    setIsRunning(false);
+    setHasStarted(false);
+    startTimeRef.current = null;
+    elapsedRef.current = 0;
+  }, []);
 
   const getElapsedMs = useCallback((): number => {
     if (startTimeRef.current) {
@@ -82,17 +104,21 @@ export function useTimer(modus: Modus): UseTimerReturn {
     return elapsedRef.current;
   }, []);
 
-  const isWarning = modus === 'tempo' && tijd <= 10 && tijd > 0;
-  const isExpired = modus === 'tempo' && tijd === 0;
+  const isWarning = modus === 'timer' && tijd <= 10 && tijd > 0;
+  const isExpired = modus === 'timer' && tijd <= 0;
 
   return {
     tijd,
+    initialTime,
     isRunning,
     isWarning,
     isExpired,
+    hasStarted,
     start,
     pause,
     reset,
+    toggle,
+    setInitialTime,
     getElapsedMs,
   };
 }
@@ -136,10 +162,13 @@ export function useWoordTimer() {
 }
 
 /**
- * Formatteer tijd naar MM:SS
+ * Formatteer tijd naar MM:SS (ondersteunt negatieve tijd)
  */
 export function formatTijd(seconden: number): string {
-  const mins = Math.floor(seconden / 60);
-  const secs = seconden % 60;
-  return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+  const isNegative = seconden < 0;
+  const absSeconds = Math.abs(seconden);
+  const mins = Math.floor(absSeconds / 60);
+  const secs = absSeconds % 60;
+  const formatted = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+  return isNegative ? `-${formatted}` : formatted;
 }

@@ -68,12 +68,29 @@ const ReadingScreen: React.FC<ReadingScreenProps> = ({
   const woordTimer = useWoordTimer();
   const audio = useAudio();
 
-  // Start timer en woord timer bij mount
+  // Track if chime has been played for current expiration
+  const chimePlayedRef = useRef(false);
+
+  // Start timer en woord timer bij mount (only auto-start for training mode)
   useEffect(() => {
-    timer.start();
+    if (modus === 'training') {
+      timer.start();
+    }
     woordTimer.startWoord();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // Play chime when timer expires
+  useEffect(() => {
+    if (timer.isExpired && !chimePlayedRef.current) {
+      audio.playChime();
+      chimePlayedRef.current = true;
+    }
+    // Reset chime tracking when timer is reset (time goes positive)
+    if (timer.tijd > 0) {
+      chimePlayedRef.current = false;
+    }
+  }, [timer.isExpired, timer.tijd, audio]);
 
   // Reset woord timer bij nieuw woord
   useEffect(() => {
@@ -96,9 +113,14 @@ const ReadingScreen: React.FC<ReadingScreenProps> = ({
   }, [blok, rijtjeIndex, woordIndex]);
 
   const handleVolgende = useCallback(() => {
+    // Auto-start timer on first "Volgende" click (for both modes)
+    if (!timer.isRunning) {
+      timer.start();
+    }
+
     // Registreer woord tijd
     const tijd = woordTimer.eindWoord(huidigWoord);
-    
+
     // Markeer als gelezen
     onWoordGelezen(dagIndex, blokIndex, rijtjeIndex, woordIndex);
 
@@ -154,7 +176,7 @@ const ReadingScreen: React.FC<ReadingScreenProps> = ({
     }
   }, [
     dagIndex, blokIndex, rijtjeIndex, woordIndex, rijtje, blok, huidigWoord,
-    timer, woordTimer, onWoordGelezen, onPositieChange, onBlokVoltooid,
+    modus, timer, woordTimer, onWoordGelezen, onPositieChange, onBlokVoltooid,
     getTotaalWoordenInBlok, getDagVoortgang
   ]);
 
@@ -249,7 +271,14 @@ const ReadingScreen: React.FC<ReadingScreenProps> = ({
           <div className="text-sm text-[oklch(0.45_0.03_50)]">
             Dag {dagIndex + 1} • Blok {blokIndex + 1}
           </div>
-          <ModeToggle modus={modus} onToggle={onModeChange} />
+          <ModeToggle
+            modus={modus}
+            onToggle={onModeChange}
+            initialTime={timer.initialTime}
+            isRunning={timer.isRunning}
+            onTimeChange={timer.setInitialTime}
+            onPlayPause={timer.toggle}
+          />
         </div>
         
         <div className="w-10" /> {/* Spacer */}
@@ -297,6 +326,7 @@ const ReadingScreen: React.FC<ReadingScreenProps> = ({
             modus={modus}
             isWarning={timer.isWarning}
             isExpired={timer.isExpired}
+            initialTime={timer.initialTime}
           />
         </div>
       </main>

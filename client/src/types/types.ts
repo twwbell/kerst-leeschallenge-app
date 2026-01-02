@@ -19,7 +19,7 @@ export interface WoordenData {
 }
 
 // App state
-export type Modus = 'training' | 'tempo';
+export type Modus = 'training' | 'timer';
 
 export interface BlokStatistiek {
   blok: number;

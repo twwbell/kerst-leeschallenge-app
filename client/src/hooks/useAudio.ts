@@ -4,6 +4,7 @@ interface UseAudioReturn {
   spreekWoord: (woord: string) => void;
   spreekLettergreep: (lettergreep: string) => void;
   spreekKlank: (klank: string) => void;
+  playChime: () => void;
   isSpeaking: boolean;
   isSupported: boolean;
   stopSpeaking: () => void;
@@ -69,6 +70,39 @@ export function useAudio(): UseAudioReturn {
     }
   }, [isSupported]);
 
+  // Play a chime sound using Web Audio API
+  const playChime = useCallback(() => {
+    try {
+      const audioContext = new (window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext)();
+
+      // Create a pleasant chime using multiple frequencies
+      const frequencies = [523.25, 659.25, 783.99]; // C5, E5, G5 (C major chord)
+
+      frequencies.forEach((freq, index) => {
+        const oscillator = audioContext.createOscillator();
+        const gainNode = audioContext.createGain();
+
+        oscillator.connect(gainNode);
+        gainNode.connect(audioContext.destination);
+
+        oscillator.frequency.value = freq;
+        oscillator.type = 'sine';
+
+        const startTime = audioContext.currentTime + index * 0.1;
+        const duration = 0.8;
+
+        gainNode.gain.setValueAtTime(0, startTime);
+        gainNode.gain.linearRampToValueAtTime(0.3, startTime + 0.05);
+        gainNode.gain.exponentialRampToValueAtTime(0.01, startTime + duration);
+
+        oscillator.start(startTime);
+        oscillator.stop(startTime + duration);
+      });
+    } catch (e) {
+      console.warn('Could not play chime sound:', e);
+    }
+  }, []);
+
   // Laad stemmen wanneer beschikbaar
   useEffect(() => {
     if (isSupported) {
@@ -86,6 +120,7 @@ export function useAudio(): UseAudioReturn {
     spreekWoord,
     spreekLettergreep,
     spreekKlank,
+    playChime,
     isSpeaking,
     isSupported,
     stopSpeaking,
